@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+/*content*/
+.anhto img{
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+.anhto .text1{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 23%;
+}
+.text1 p{
+	color: orange;
+	font-size: 18px;
+}
+.text1 h1{
+	color: white;
+	font-size: 45px;
+}
+.controll ul li{
+	float: left;
+	padding: 20px 25px;
+	background-color:#444;
+	width: 25%;
+	text-align: center;
+	list-style: none;
+	border-right: 1px solid black;
+}
+.controll ul li a{
+	color: white;
+	font-size: 18px;
+}
+.content1 .row{
+	margin: 0;
+}
+.content1 .row .text2{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.content1 .row .card-body p{
+	height: 200px;
+}
+.content1 .ctn1 .r1>div{
+	margin-top: 20px;
+}
+
+.cnt2 img{
+	height: 500px;
+	width: 100%;
+}
+.ctn3 .text4{
+	text-align: center;
+}
+.ctn3 .text4 p{
+	color: #007bff;
+}
+.ctn4{
+	margin-top: 20px;
+	background-color: #444;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+.ctn4 h1{
+	font-size: 50px;
+	color: white;
+	font-weight: normal;
+}
+.ctn4 .row i{
+	font-size: 50px;
+	color: orange;
+	cursor: pointer;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+.ctn4 .row h4{
+	font-size: 40px;
+	color: white;
+	font-weight: normal;
+	cursor: pointer;
+}
+/**/
+
+/*footer*/
+.footer{
+	padding-top: 50px;
+	background-color: #00447c;
+	padding-bottom: 20px;
+}
+.footer .fothead{
+	padding-left: 50px;
+
+}
+.footer ul li{
+	list-style: none;
+
+}
+.footer .fothead ul li a{
+	color: #fff;
+	font-size: 14px;
+}
+.footer .fothead ul li:first-child{
+	color: white;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.footer .foter{
+	width: 20%;
+	float: left;
+}
+.hr2{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.fot2 ul li{
+	display: inline-block;
+	width:10%;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+.fot2 ul{
+	text-align: center;
+}
+.fotfot ul{
+	text-align: center;
+	margin: 0;
+}
+.fotfot ul li{
+	display: inline-block;
+	border-left: 1px solid white;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.fotfot ul li a{
+	color: #fff;
+}
+.fotfot ul li:first-child{
+	border-left: none;
+}

@@ -1,0 +1,189 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+		/*menu*/
+
+.menu ul li{
+	text-align: center;
+	cursor: pointer;
+}
+.menu ul li i{
+	color: white !important;
+}
+.menu ul li a{
+	color: white !important;
+}
+.menu ul li a:hover{
+	text-decoration: underline;
+}
+.menu ul li a{
+	padding-top: 0;
+}
+.menub{
+	border-top: 1px solid #0087C6;
+	height: 40px;
+	background-color: #007db8;
+	padding-left: 20px;
+}
+.menub ul li{
+	display: inline-block;
+	line-height: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	cursor: pointer;
+}
+.menub ul li:hover{
+	background-color: white;
+}
+.menub ul li a{
+	color: white;
+	text-decoration: none;
+}
+.menub ul li:hover a{
+	color: #007db8 !important;
+}
+.carow{
+	background-color: #eeeeee;
+}
+.carow .c{
+	float: left;
+}
+.carow .c p{
+	margin-top: 30px;
+}
+.carow .c p a{
+	color: #007db8 !important;
+}
+/*content*/
+.content{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.content .son1 ol li{
+	display: inline-block;
+	list-style: none;
+	padding: 10px;
+}
+.content .son1 ol li a {
+	color: #999999 !important;
+	padding-left: 10px;
+}
+.content .son2 .son22{
+ 	float: right;
+ 	padding-left: 15px;
+}
+.content .son2 .text1{
+	padding-top: 30px;
+}
+.content .son2 .text1 .bottom1 a{
+	color: #007db8 !important;
+	float: right;
+}
+hr{
+	background-color: #eeeeee;
+	height: 1.5px;
+}
+.son3 .dropdown{
+	margin-bottom:15px; 
+}
+.son3 .dropdown .btn{
+	width: 100%;
+	background-color: #f7f9fa;
+	color: #007db8;
+}
+.sonchung{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.sonchung h2{
+	font-size: 28px;
+}
+.sonchung p{
+	font-size: 14px;
+}
+.chung{
+	text-align: center;
+}
+.textp1 a{
+	color: #007db8 !important;
+}
+.son5 img{
+	height: 151px;
+}
+.son5 h2{
+	font-size: 20px;
+}
+.son5 p{
+	font-size: 14px;
+}
+.son9 h2{
+	font-size: 20px;
+}
+.son9 p{
+	font-size: 14px;
+}
+.son10 h3{
+	font-size: 20px;
+}
+.son10 p{
+	font-size: 14px;
+}
+.son11 h4{
+	font-size: 17px;
+}
+.son11 h5{
+	font-size: 15px;
+}
+.son11 h4 a{
+	color: #007db8 !important;
+}
+.son11 p{
+	font-size: 13px;
+}
+.son11 .chung img{
+	height: 106px;
+}
+/*footer*/
+.foot{
+	background: #007db8 !important;
+}
+.foot a{
+	color: white !important;
+	font-size: 12px;
+}
+.foot a:hover{
+	opacity: 0.7;
+}
+.son12chung{
+	padding:20px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.son12chung img{
+	margin-bottom: 10px;
+}
+.son12chung p{
+	font-size: 14px;
+}
+.son12chung:hover{
+	background-color: white;
+	transition: 0.5s;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+}
+
+.navbar-nav{
+    display: flex;
+    -ms-flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
